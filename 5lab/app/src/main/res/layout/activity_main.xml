@@ -44,10 +44,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Привет дядя Рубель"
-        android:textSize="36sp"
         android:layout_marginTop="34dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TextView"
+        android:fontFamily="sans-serif"
+        android:textSize="36sp"
+        android:lineSpacingExtra="10sp" />
 
     <Button
         android:text="Жмакало"
@@ -57,5 +60,6 @@
         android:textSize="30sp"
         android:elevation="0dp"
         android:layout_above="@+id/switch1"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
 </RelativeLayout>
